@@ -4,20 +4,24 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .header{
     background: black;
     display: flex;
-    height: 120px;
+    height: 7.5rem;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .headerTitle{
@@ -33,7 +37,7 @@ body{
     color: white;
     border: none;
     font-size: 150%;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 .headerButton:hover{
@@ -64,7 +68,7 @@ body{
     font-size: 350%;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px ;
+    margin-bottom: 1.25rem ;
 }
 
 .mainNavigationListItem > a{
@@ -87,7 +91,7 @@ body{
 
 .collections{
     width: 100%;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .collectionsTitle, .infoTitle{
@@ -95,7 +99,7 @@ body{
     color: black;
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     text-align: center;
     text-decoration: underline;
 }
@@ -108,14 +112,14 @@ body{
 .collectionsList{
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .collectionsListItem{
-    width: 500px;
-    height: 700px;
+    width: 31.25rem;
+    height: 43.75rem;
     background: black;
     flex-shrink: 1;
     flex-grow: 1;
@@ -128,14 +132,14 @@ body{
 }
 
 .info{
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
 .block{
-    width: 400px;
+    width: 25rem;
     flex-shrink: 1;
     flex-grow: 1;
 }
@@ -149,8 +153,8 @@ body{
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-right: 40px;
+    padding: 1.25rem;
+    padding-right: 2.5rem;
 }
 
 .footerNavigation{
@@ -173,7 +177,7 @@ body{
     font-size: 80%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:43.75rem) {
     body{
         font-size: 14;
     }
@@ -181,3 +185,50 @@ body{
         font-size: 380%;
     }
 }
+
+form{
+    width:45rem;
+    min-height: 40rem;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 3rem;
+    gap: 2rem;
+    border-radius: 5px;
+}
+
+form label{
+    border-bottom: 2px solid grey;
+    color: white;
+}
+
+form div{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    display: block;
+    width: 40ch;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    background: white;
+
+}
+
+textarea{
+    height: 17.6ch;
+    width:100%;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+    resize:none;
+    background: white;
+}
+

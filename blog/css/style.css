@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       
@@ -17,11 +17,11 @@ body{
 header, footer{
     background: #222831;
     color: white;
-    height: 60px;
+    height: 3.75rem;
 }
 
 main{
-    padding: 40px;
+    padding: 2.5rem;
     height: 100%;
     width: 60vw;
     margin:0 auto;
@@ -39,7 +39,7 @@ nav{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 nav > ul >li{
@@ -56,20 +56,20 @@ nav > ul > li > a{
     width: 100%;
     display: block;
     text-align: center ;
-    line-height: 60px;
+    line-height: 3.75rem;
     text-decoration: none;
     color: white;
 }
 
 h1{
     font-size: 250%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid black;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid black;
 }
 
 section{
     width: 100%;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 article{
@@ -80,10 +80,10 @@ article{
 
 .box{
     width: 100%;
-    height: 400px;
+    height: 25rem;
     position: relative;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .box > a > figure{
@@ -95,7 +95,7 @@ article{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 .box > a > figure > img:hover{
@@ -107,19 +107,19 @@ article{
     position: absolute;
     bottom: 0%;
     left: 0%;
-    padding: 40px;
+    padding: 2.5rem;
     color: white;
     width: 100%;
     height: 100%;
     background: linear-gradient(transparent,80%,black);
-    border-radius: 50px;
+    border-radius: 3.125;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     
 }
 figure{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .slideshow{
@@ -136,7 +136,7 @@ img:hover{
     transform: scale(1.05);
 }
 p{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 p:last-of-type{
     margin-bottom: 0;
@@ -150,27 +150,27 @@ figcaption{
 
 audio{
     display: block;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 video{
     width: 100%;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 1.25rem;
+    border-radius: 0.3125rem;
 }
 
 .top{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background-color: #222831;
     border: none;
     font-size: 150%;
     font-family: 'Open Sans', sans-serif;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: white;
     position: fixed;
-    bottom: 120px;
-    right: 120px;
+    bottom: 7.5rem;
+    right: 7.5rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -178,7 +178,7 @@ video{
 }
 
 footer{
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     align-items: center;
 }
@@ -186,12 +186,12 @@ footer > p{
     display: flex;
     width:60vw;
     margin:0 auto;
-    padding-left: 40px;
+    padding-left: 2.5rem;
 
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:62.5rem){
     main{
         width: 80vw;
     }
@@ -202,16 +202,16 @@ footer > p{
         transform:none;
     }
     .top{
-        width: 60px;
-        height: 60px;
-        bottom: 60px;
-        right: 60px;
+        width: 3.75rem;
+        height: 3.75rem;
+        bottom: 3.75rem;
+        right: 3.75rem;
     }
 
     footer > p{
         width: 60vw;
         margin: 0 auto;
-        padding-left: 80px;
+        padding-left: 5rem;
         }
     
     header{
@@ -227,13 +227,13 @@ footer > p{
     }
  }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:37.5rem){
     body{
-        font-size: 16px;
+        font-size: 1rem;
     }
     main{
         width: 100vw; 
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     h1{
@@ -241,6 +241,6 @@ footer > p{
     }
     footer > p{
         width: 100vw;
-        padding-left: 60px;
+        padding-left: 3.75rem;
     }
 }
